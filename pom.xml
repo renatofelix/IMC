@@ -5,8 +5,8 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>br.ufg.inf.es.dw</groupId>
-  <artifactId>lab-dw-2017-1</artifactId>
+  <groupId>renato-felix</groupId>
+  <artifactId>IMC</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <!-- Para aplicação web "standard" (JEE).-->
   <packaging>war</packaging>
