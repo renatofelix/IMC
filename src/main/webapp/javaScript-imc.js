@@ -43,7 +43,7 @@ function calcular() {
    {
      situacao = "Obeso";
    }
-   else if(imc > 32.3 && sexo == "homem")
+   else if(imc > 31.1 && sexo == "homem")
    {
      situacao = "Obeso";
    }
