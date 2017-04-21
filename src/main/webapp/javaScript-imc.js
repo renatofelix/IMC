@@ -7,34 +7,47 @@ function calcular() {
   var imc;
   var situacao;
    imc = peso / (Math.pow(altura,2));
-   if(imc < 17)
-   {
-     situacao = "Muito abaixo do peso";
-   }
-   else if(imc >=17 && imc <= 18.49 )
+   if(imc < 19.1 && sexo == "mulher")
    {
      situacao = "Abaixo do peso";
    }
-   else if(imc >=18.5 && imc <= 24.99 )
+   else if(imc < 20.7 && sexo == "homem")
    {
-     situacao = "Peso normal";
+     situacao = "Abaixo do peso";
    }
-   else if(imc >=25 && imc <= 29.99 )
+   else if(imc >=19.1 && imc <= 25.8 && sexo == "mulher")
    {
-     situacao = "Acima do peso";
+     situacao = "No peso normal";
    }
-   else if(imc >=30 && imc <= 34.99)
+   else if(imc >=20.7 && imc <= 26.4 && sexo == "homem")
    {
-     situacao = "Obesidade I";
+     situacao = "No peso normal";
    }
-   else if(imc >=35 && imc <= 39.99 )
+   else if(imc >=25.8 && imc <= 27.3 && sexo == "mulher")
    {
-     situacao = "Obesidade II (severa)";
+     situacao = "Marginalmente acima do peso";
    }
-   else if(imc > 40 )
+   else if(imc >=26.4 && imc <= 27.8 && sexo == "homem")
    {
-     situacao = "Obesidade III (mórbida)";
+     situacao = "Marginalmente acima do peso";
    }
+   else if(imc >=27.3 && imc <= 32.3 && sexo == "mulher")
+   {
+     situacao = "Acima do peso ideal";
+   }
+   else if(imc >=27.8 && imc <= 31.1 && sexo == "homem")
+   {
+     situacao = "Acima do peso ideal";
+   }
+   else if(imc > 32.3 && sexo == "mulher")
+   {
+     situacao = "Obeso";
+   }
+   else if(imc > 32.3 && sexo == "homem")
+   {
+     situacao = "Obeso";
+   }
+
    alert(situacao);
 
 }
