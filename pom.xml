@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>renato-felix</groupId>
-  <artifactId>POUPE-DINHEIRO</artifactId>
+  <artifactId>IMC</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <!-- Para aplicação web "standard" (JEE).-->
   <packaging>war</packaging>
